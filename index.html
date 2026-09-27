@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phanindra P. — Mechanical Engineering Portfolio</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fixed Canvas for 3D Mechanical Scroll Animation -->
+  <canvas id="animation-canvas"></canvas>
+
+  <!-- Content Wrapper -->
+  <div class="content-wrapper">
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+      <div class="nav-brand">
+        <div class="brand-logo">
+          <i data-lucide="settings" class="gear-icon"></i>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">PHANINDRA P.</span>
+          <span class="brand-title">MECHANICAL ENGINEERING STUDENT</span>
+        </div>
+      </div>
+
+      <nav class="nav-links">
+        <a href="#home" class="nav-item active">HOME</a>
+        <a href="#about" class="nav-item">ABOUT</a>
+        <a href="#skills" class="nav-item">SKILLS</a>
+        <a href="#projects" class="nav-item">PROJECTS</a>
+        <a href="#education" class="nav-item">EDUCATION</a>
+        <a href="#resume" class="nav-item">RESUME</a>
+        <a href="#contact" class="nav-item">CONTACT</a>
+      </nav>
+    </header>
+
+    <!-- Main Content Sections -->
+    <main>
+
+      <!-- HERO SECTION (#home) -->
+      <section id="home" class="hero-section">
+        <div class="hero-content-card">
+          
+          <!-- Top Tag Badge -->
+          <div class="hero-badge">
+            <i data-lucide="settings" class="badge-icon"></i>
+            <span class="badge-main">B.TECH MECHANICAL ENGINEERING</span>
+            <span class="badge-divider">•</span>
+            <span class="badge-sub">DESIGN • ANALYSIS • INNOVATION</span>
+          </div>
+
+          <!-- Hero Headings -->
+          <div class="hero-heading-group">
+            <div class="hello-tag">
+              <span class="accent-line"></span>
+              HELLO, I'M
+            </div>
+            <h1 class="hero-title">
+              MECHANICAL<br>
+              ENGINEERING<br>
+              <span class="highlight-amber">STUDENT</span>
+            </h1>
+          </div>
+
+          <!-- Description -->
+          <p class="hero-description">
+            I'm passionate about mechanical design, CAD modelling, simulation, and turning ideas into practical engineering solutions.
+          </p>
+
+          <!-- CTA Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              VIEW MY PROJECTS <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#resume" class="btn btn-secondary">
+              DOWNLOAD RESUME <i data-lucide="download"></i>
+            </a>
+          </div>
+
+          <!-- Social Proof / Team -->
+          <div class="hero-social-proof">
+            <div class="avatar-stack">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80" alt="Avatar 1">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&auto=format&fit=crop&q=80" alt="Avatar 2">
+              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80" alt="Avatar 3">
+              <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80" alt="Avatar 4">
+              <span class="avatar-more">+3</span>
+            </div>
+            <p class="social-proof-text">
+              Building better solutions through design, analysis and innovation.
+            </p>
+          </div>
+
+          <!-- Floating Feature Badges inside Hero -->
+          <div class="hero-floating-blueprint">
+            <span class="blueprint-line"></span>
+            <span class="blueprint-text">Four Wheel Steering Mechanism</span>
+          </div>
+
+          <div class="hero-floating-card">
+            <span class="accent-bar"></span>
+            <p class="card-caption">TURNING IDEAS INTO ENGINEERING SOLUTIONS.</p>
+            <div class="indicator-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+          <span>SCROLL TO EXPLORE</span>
+          <div class="mouse-icon">
+            <div class="wheel"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 01 - ABOUT THE ENGINEER (#about) -->
+      <section id="about" class="section-block">
+        <div class="section-container">
+          
+          <!-- Watermark -->
+          <span class="watermark-num">01</span>
+
+          <!-- Section Header -->
+          <div class="section-meta">
+            <span class="meta-tag">— ENGINEERING MINDSET</span>
+            <h2 class="section-title">ABOUT THE ENGINEER</h2>
+          </div>
+
+          <div class="about-grid">
+            <!-- Text Content -->
+            <div class="about-text-card">
+              <p>
+                I am a Mechanical Engineering student interested in the intersection of <strong>design</strong>, <strong>analysis</strong>, and <strong>technology</strong>. I enjoy transforming engineering concepts into CAD models, analysing their behaviour through simulation, and understanding how mechanical systems can be improved for real-world applications.
+              </p>
+              <p>
+                My approach is simple — <em>understand the problem, design the solution, analyse it, and continuously improve it.</em>
+              </p>
+              
+              <div class="about-milestones">
+                <div class="milestone-item">
+                  <span class="milestone-val">4+</span>
+                  <span class="milestone-lbl">Major CAD Projects</span>
+                </div>
+                <div class="milestone-item">
+                  <span class="milestone-val">100+</span>
+                  <span class="milestone-lbl">FEA/CFD Simulations</span>
+                </div>
+                <div class="milestone-item">
+                  <span class="milestone-val">3.8</span>
+                  <span class="milestone-lbl">Academic GPA</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 Pillar Cards -->
+            <div class="pillars-container">
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i data-lucide="box"></i>
+                </div>
+                <div class="pillar-info">
+                  <h3>DESIGN</h3>
+                  <p>CAD modelling & mechanical systems</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i data-lucide="activity"></i>
+                </div>
+                <div class="pillar-info">
+                  <h3>ANALYSIS</h3>
+                  <p>Simulation & engineering analysis</p>
+                </div>
+              </div>
+
+              <div class="pillar-card">
+                <div class="pillar-icon">
+                  <i data-lucide="lightbulb"></i>
+                </div>
+                <div class="pillar-info">
+                  <h3>INNOVATION</h3>
+                  <p>Problem solving & practical concepts</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <span class="watermark-num watermark-bottom">01</span>
+        </div>
+      </section>
+
+      <!-- SECTION 02 - SKILLS & EXPERTISE (#skills) -->
+      <section id="skills" class="section-block">
+        <div class="section-container">
+          <span class="watermark-num">02</span>
+
+          <div class="section-meta">
+            <span class="meta-tag">— TECHNICAL PROFICIENCY</span>
+            <h2 class="section-title">SKILLS & EXPERTISE</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <i data-lucide="cpu"></i>
+                <h3>CAD & 3D Modeling</h3>
+              </div>
+              <ul class="skill-list">
+                <li><span>SolidWorks (CSWP Certified)</span> <div class="bar-fill" style="width: 95%"></div></li>
+                <li><span>CATIA V5</span> <div class="bar-fill" style="width: 85%"></div></li>
+                <li><span>Autodesk Fusion 360</span> <div class="bar-fill" style="width: 90%"></div></li>
+                <li><span>AutoCAD Mechanical</span> <div class="bar-fill" style="width: 80%"></div></li>
+              </ul>
+            </div>
+
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <i data-lucide="bar-chart-2"></i>
+                <h3>CAE & Simulation</h3>
+              </div>
+              <ul class="skill-list">
+                <li><span>ANSYS Workbench (FEA & CFD)</span> <div class="bar-fill" style="width: 90%"></div></li>
+                <li><span>Stress & Modal Analysis</span> <div class="bar-fill" style="width: 88%"></div></li>
+                <li><span>Fluid Flow & Thermal CFD</span> <div class="bar-fill" style="width: 82%"></div></li>
+                <li><span>MATLAB & Simulink</span> <div class="bar-fill" style="width: 78%"></div></li>
+              </ul>
+            </div>
+
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <i data-lucide="cog"></i>
+                <h3>Manufacturing & Automation</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">CNC Programming</span>
+                <span class="skill-tag">3D Printing / FDM</span>
+                <span class="skill-tag">GD&T</span>
+                <span class="skill-tag">Kinematics</span>
+                <span class="skill-tag">Reverse Engineering</span>
+                <span class="skill-tag">DFM / DFA</span>
+              </div>
+            </div>
+
+            <div class="skill-category-card">
+              <div class="cat-header">
+                <i data-lucide="book-open"></i>
+                <h3>Engineering Core</h3>
+              </div>
+              <div class="skill-tags">
+                <span class="skill-tag">Thermodynamics</span>
+                <span class="skill-tag">Fluid Mechanics</span>
+                <span class="skill-tag">Machine Design</span>
+                <span class="skill-tag">Strength of Materials</span>
+                <span class="skill-tag">Mechatronics</span>
+                <span class="skill-tag">Robotics</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- SECTION 03 - FEATURED PROJECTS (#projects) -->
+      <section id="projects" class="section-block">
+        <div class="section-container">
+          <span class="watermark-num">03</span>
+
+          <div class="section-meta">
+            <span class="meta-tag">— PRACTICAL APPLICATIONS</span>
+            <h2 class="section-title">FEATURED PROJECTS</h2>
+          </div>
+
+          <div class="projects-grid">
+            
+            <div class="project-card">
+              <div class="project-badge">FEATURED</div>
+              <div class="project-content">
+                <h3>Four-Wheel Steering Mechanism</h3>
+                <p>Designed and dynamically simulated a 4WS system enabling parallel crab-steering and counter-steering modes for high-speed stability and tight urban cornering.</p>
+                <div class="project-tech">
+                  <span>SolidWorks</span>
+                  <span>ANSYS Motion</span>
+                  <span>Kinematics</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-badge">ANALYSIS</div>
+              <div class="project-content">
+                <h3>Automated Planetary Gearbox</h3>
+                <p>Structural FEA and thermal load simulation of a high-torque reduction gearbox used in automated industrial drives. Optimized gear mesh tooth stress by 18%.</p>
+                <div class="project-tech">
+                  <span>CATIA V5</span>
+                  <span>ANSYS FEA</span>
+                  <span>Stress Analysis</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card">
+              <div class="project-badge">AERODYNAMICS</div>
+              <div class="project-content">
+                <h3>Formula SAE Aerodynamic Bodywork</h3>
+                <p>3D surface modeling and CFD flow visualization for a student Formula racecar, achieving a 14% drag reduction while maintaining optimal front-wing downforce.</p>
+                <div class="project-tech">
+                  <span>Fusion 360</span>
+                  <span>ANSYS Fluent</span>
+                  <span>CFD</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 04 - EDUCATION & ACADEMICS (#education) -->
+      <section id="education" class="section-block">
+        <div class="section-container">
+          <span class="watermark-num">04</span>
+
+          <div class="section-meta">
+            <span class="meta-tag">— ACADEMIC JOURNEY</span>
+            <h2 class="section-title">EDUCATION & CERTIFICATIONS</h2>
+          </div>
+
+          <div class="education-timeline">
+            
+            <div class="timeline-card">
+              <div class="timeline-year">2022 — 2026</div>
+              <div class="timeline-details">
+                <h3>B.Tech in Mechanical Engineering</h3>
+                <span class="institution">Department of Mechanical Engineering • Expected Graduation 2026</span>
+                <p>Specializing in Computer-Aided Engineering, Thermal Systems, and Mechatronics. Active core member of the SAE Student Chapter.</p>
+              </div>
+            </div>
+
+            <div class="timeline-card">
+              <div class="timeline-year">2024</div>
+              <div class="timeline-details">
+                <h3>Certified SolidWorks Professional (CSWP)</h3>
+                <span class="institution">Dassault Systèmes Certification ID: C-SWP-89241</span>
+                <p>Validated expertise in advanced part modeling, assembly creation, configuration management, and complex surface design.</p>
+              </div>
+            </div>
+
+            <div class="timeline-card">
+              <div class="timeline-year">2023</div>
+              <div class="timeline-details">
+                <h3>ANSYS Mechanical Specialist Certification</h3>
+                <span class="institution">Ansys Innovation Academy</span>
+                <p>Advanced practical training in static structural analysis, modal frequency evaluation, and transient thermal FEA.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 05 - RESUME (#resume) -->
+      <section id="resume" class="section-block">
+        <div class="section-container">
+          <span class="watermark-num">05</span>
+
+          <div class="section-meta">
+            <span class="meta-tag">— CAREER HIGHLIGHTS</span>
+            <h2 class="section-title">RESUME & PORTFOLIO</h2>
+          </div>
+
+          <div class="resume-cta-card">
+            <div class="resume-info">
+              <h3>Phanindra P. — Mechanical Engineer CV</h3>
+              <p>Download the complete resume featuring detailed engineering coursework, project reports, software credentials, and references.</p>
+            </div>
+            <div class="resume-actions">
+              <a href="#" onclick="alert('Resume download initiated!'); return false;" class="btn btn-primary btn-lg">
+                <i data-lucide="file-text"></i> DOWNLOAD FULL RESUME (PDF)
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECTION 06 - CONTACT (#contact) -->
+      <section id="contact" class="section-block">
+        <div class="section-container">
+          <span class="watermark-num">06</span>
+
+          <div class="section-meta">
+            <span class="meta-tag">— GET IN TOUCH</span>
+            <h2 class="section-title">LET'S CONNECT</h2>
+          </div>
+
+          <div class="contact-grid">
+            <div class="contact-info-card">
+              <h3>Contact Details</h3>
+              <p>Open for engineering internships, CAD design projects, and technical collaborations.</p>
+
+              <div class="contact-methods">
+                <div class="c-item">
+                  <i data-lucide="mail"></i>
+                  <div>
+                    <span class="c-label">Email</span>
+                    <a href="mailto:karv5550@gmail.com" class="c-val">karv5550@gmail.com</a>
+                  </div>
+                </div>
+                <div class="c-item">
+                  <i data-lucide="linkedin"></i>
+                  <div>
+                    <span class="c-label">LinkedIn</span>
+                    <a href="#" class="c-val">linkedin.com/in/phanindra-p</a>
+                  </div>
+                </div>
+                <div class="c-item">
+                  <i data-lucide="map-pin"></i>
+                  <div>
+                    <span class="c-label">Location</span>
+                    <span class="c-val">Hyderabad, India</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" onsubmit="alert('Thank you! Your message has been sent.'); return false;">
+              <div class="form-row">
+                <div class="form-group">
+                  <label>Your Name</label>
+                  <input type="text" placeholder="John Doe" required>
+                </div>
+                <div class="form-group">
+                  <label>Your Email</label>
+                  <input type="email" placeholder="john@example.com" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Subject</label>
+                <input type="text" placeholder="Project Inquiry / Collaboration" required>
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea rows="4" placeholder="Share details about your project or opportunity..." required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">
+                SEND MESSAGE <i data-lucide="send"></i>
+              </button>
+            </form>
+          </div>
+
+          <footer class="footer">
+            <p>© 2026 Phanindra P. Mechanical Engineering Portfolio. Built with Canvas Smooth Scroll.</p>
+          </footer>
+
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Initialize Lucide icons
+    lucide.createIcons();
+  </script>
+</body>
+</html>
